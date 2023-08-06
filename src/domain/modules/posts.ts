@@ -3,7 +3,7 @@ import { PostInfo } from '../types/valueObjects';
 
 export const mkPost = (id: string, createdBy: string, postInfo: PostInfo, tenantId: string): Post {
     return {
-        _tag: "draft-post",
+        _tag: "post",
         id,
         createdBy,
         postInfo,

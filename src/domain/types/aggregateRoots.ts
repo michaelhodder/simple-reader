@@ -1,7 +1,7 @@
 import { PostInfo } from './valueObjects';
 
 export type Post = {
-    _tag: "draft-post",
+    _tag: "post",
     id: string;
     postInfo: PostInfo;
     createdBy: string;
