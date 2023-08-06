@@ -1,5 +1,5 @@
 import express from 'express';
-import { inMemoryPostRepository  } from './infrastructure/repositories/inMemoryClaimRepository';
+import { inMemoryPostRepository  } from './infrastructure/repositories/inMemoryPostRepository';
 import { createPostCommandHandler } from './application/commandHandlers/createPostCommandHandler';
 import { getPostQueryHandler } from './application/queryHandlers/getPostQueryHandler';
 import { routes } from './api/routes';
